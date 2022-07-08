@@ -1,4 +1,4 @@
-export default [
+const database = [
   {
     id: 1,
     title: "Life Lessons with Katie Zareferes",
@@ -6,11 +6,11 @@ export default [
     price: 136,
     coverImg: "katie-zaferes.png",
     stats: {
-      rating: 5.0,
+      rating: "5.0",
       reviewCount: 6,
     },
     location: "USA",
-    openSpots: "",
+    openSpots: 0,
   },
   {
     id: 2,
@@ -19,23 +19,25 @@ export default [
     price: 125,
     coverImg: "wedding-photography.png",
     stats: {
-      rating: 5.0,
+      rating: "5.0",
       reviewCount: 30,
     },
-    location: "USA",
-    openSpots: "",
+    location: "Online",
+    openSpots: 22,
   },
   {
-    id: 2,
+    id: 3,
     title: "Group Mountain Biking",
     description: "",
     price: 50,
     coverImg: "mountain-bike.png",
     stats: {
-      rating: 4.8,
+      rating: "4.8",
       reviewCount: 2,
     },
     location: "USA",
-    openSpots: "",
+    openSpots: 3,
   },
 ];
+
+export default database
