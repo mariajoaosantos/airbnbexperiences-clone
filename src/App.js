@@ -2,14 +2,20 @@ import React from "react";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Card from "./components/Card";
-import Contact from "./components/Contact";
 
 function App() {
   return (
     <div>
       <Navbar />
       <Hero />
-      <Card />
+      <Card 
+      img="katie-zaferes.png" 
+      rating="5.0"
+      reviewCount={6}
+      country="USA"
+      title="Life Lessons with Katie Zareferes"
+      price={136}
+       />
     </div>
   );
 }
